@@ -1,16 +1,18 @@
 using Scalar.AspNetCore;
+using Tasker.Application.Users;
 
 var builder = WebApplication.CreateBuilder(args);
 
+builder.Services.AddScoped<IUserService, UserService>();
+builder.Services.AddControllers();
 builder.Services.AddOpenApi();
 
 var app = builder.Build();
 
 if (app.Environment.IsDevelopment())
 {
-    // app.MapOpenApi();
-    app.MapScalarApiReference();
-
+    app.MapOpenApi();            
+    app.MapScalarApiReference(); 
 }
 
 app.UseHttpsRedirection();
@@ -25,7 +27,7 @@ app.MapGet("/weatherforecast", () =>
         )
     );
 })
-.WithOpenApi();
+.WithOpenApi(); 
 
 app.Run();
 
