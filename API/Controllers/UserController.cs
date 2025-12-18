@@ -1,7 +1,6 @@
+using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Mvc;
 using Tasker.Application.Users;
-
-namespace Tasker.API.Controllers;
 
 [ApiController]
 [Route("api/[controller]")]
@@ -14,27 +13,20 @@ public class UsersController : ControllerBase
         _userService = userService;
     }
 
-    [HttpPost]
-    public async Task<ActionResult<UserDto>> Create(CreateUserRequest request)
-    {
-        var user = await _userService.CreateAsync(request);
-        return CreatedAtAction(nameof(GetById), new { id = user.Id }, user);
-    }
-
-    [HttpGet("{id:guid}")]
-    public async Task<ActionResult<UserDto>> GetById(Guid id)
-    {
-        var user = await _userService.GetByIdAsync(id);
-        if (user is null)
-            return NotFound();
-
-        return Ok(user);
-    }
-
+    [Authorize]
     [HttpGet]
-    public async Task<ActionResult<IEnumerable<UserDto>>> GetAll()
+    public async Task<IActionResult> GetAll()
     {
         var users = await _userService.GetAllAsync();
         return Ok(users);
+    }
+
+    [Authorize]
+    [HttpGet("{id:guid}")]
+    public async Task<IActionResult> GetById(Guid id)
+    {
+        var user = await _userService.GetByIdAsync(id);
+        if (user == null) return NotFound();
+        return Ok(user);
     }
 }
