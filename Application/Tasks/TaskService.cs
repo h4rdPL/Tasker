@@ -1,12 +1,12 @@
 using Tasker.Domain.Entities;
-
+using System.Threading.Tasks;
 namespace Tasker.Application.Tasks;
 
 public class TaskService : ITaskService
 {
     private static readonly List<TaskItem> _tasks = new();
 
-    public System.Threading.Tasks.Task<TaskDto> CreateAsync(
+    public Task<TaskDto> CreateAsync(
         CreateTaskRequest request,
         Guid userId)
     {
@@ -20,25 +20,25 @@ public class TaskService : ITaskService
 
         _tasks.Add(task);
 
-        return System.Threading.Tasks.Task.FromResult(Map(task));
+        return Task.FromResult(Map(task));
     }
 
-    public System.Threading.Tasks.Task<IEnumerable<TaskDto>> GetAllAsync(Guid userId)
+    public Task<IEnumerable<TaskDto>> GetAllAsync(Guid userId)
     {
         var tasks = _tasks
             .Where(t => t.OwnerUserId == userId)
             .Select(Map);
 
-        return System.Threading.Tasks.Task.FromResult(tasks);
+        return Task.FromResult(tasks);
     }
 
-    public System.Threading.Tasks.Task<TaskDto?> GetByIdAsync(Guid id, Guid userId)
+    public Task<TaskDto?> GetByIdAsync(Guid id, Guid userId)
     {
         var task = _tasks.FirstOrDefault(
             t => t.Id == id && t.OwnerUserId == userId
         );
 
-        return System.Threading.Tasks.Task.FromResult(
+        return Task.FromResult(
             task is null ? null : Map(task)
         );
     }
