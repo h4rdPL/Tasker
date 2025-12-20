@@ -1,50 +1,66 @@
 using Scalar.AspNetCore;
-using Tasker.Application.Users;
 using Microsoft.AspNetCore.Authentication.JwtBearer;
 using Microsoft.IdentityModel.Tokens;
 using System.Text;
-
-
+using Tasker.Application.Users;
+using Tasker.API.Security;
+using Tasker.Infrastructure.Helpers;
+using Tasker.Domain.Entities; 
+using Tasker.Application.Tasks;
 var builder = WebApplication.CreateBuilder(args);
+builder.Services.AddScoped<IUserService, UserService>();
+builder.Services.AddScoped<IAuthService, AuthService>();
+builder.Services.AddScoped<ITaskService, TaskService>();
+builder.Services.AddSingleton<PasswordHasher>();
+builder.Services.AddSingleton<IJwtTokenGenerator, JwtTokenGenerator>();
+builder.Services.Configure<JwtOptions>(
+    builder.Configuration.GetSection("Jwt")
+);
 
-var jwtKey = "supersecretkey!123"; 
-var keyBytes = Encoding.UTF8.GetBytes(jwtKey);
+var jwtOptions = builder.Configuration
+    .GetSection("Jwt")
+    .Get<JwtOptions>()!;
+
+builder.Services.AddAuthentication(JwtBearerDefaults.AuthenticationScheme)
+    .AddJwtBearer(options =>
+    {
+        options.TokenValidationParameters = new TokenValidationParameters
+        {
+            ValidateIssuer = true,
+            ValidateAudience = true,
+            ValidateLifetime = true,
+            ValidateIssuerSigningKey = true,
+
+            ValidIssuer = jwtOptions.Issuer,
+            ValidAudience = jwtOptions.Audience,
+            IssuerSigningKey = new SymmetricSecurityKey(
+                Encoding.UTF8.GetBytes(jwtOptions.Key)
+            )
+        };
+    });
+
 
 builder.Services.AddScoped<IUserService, UserService>();
+builder.Services.AddScoped<IJwtTokenGenerator, JwtTokenGenerator>();
+
 builder.Services.AddControllers();
 builder.Services.AddOpenApi();
 
-builder.Services.AddAuthentication(options =>
-{
-    options.DefaultAuthenticateScheme = JwtBearerDefaults.AuthenticationScheme;
-    options.DefaultChallengeScheme = JwtBearerDefaults.AuthenticationScheme;
-})
-.AddJwtBearer(options =>
-{
-    options.TokenValidationParameters = new TokenValidationParameters
-    {
-        ValidateIssuer = false,  
-        ValidateAudience = false,
-        ValidateLifetime = true,
-        ValidateIssuerSigningKey = true,
-        IssuerSigningKey = new SymmetricSecurityKey(keyBytes)
-    };
-});
-
 var app = builder.Build();
+
 
 if (app.Environment.IsDevelopment())
 {
-    app.MapOpenApi();            
-    app.MapScalarApiReference(options => 
+    app.MapOpenApi();
+    app.MapScalarApiReference(options =>
     {
         options.Theme = ScalarTheme.BluePlanet;
-
-    }); 
+    });
 }
 
 app.UseHttpsRedirection();
-app.UseAuthentication();
+
+app.UseAuthentication(); 
 app.UseAuthorization();
 
 app.MapControllers();

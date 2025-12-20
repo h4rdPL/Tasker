@@ -14,3 +14,5 @@ D:\_programowanie\projects\tasker\Application\obj\Debug\net9.0\Application.dll
 D:\_programowanie\projects\tasker\Application\obj\Debug\net9.0\refint\Application.dll
 D:\_programowanie\projects\tasker\Application\obj\Debug\net9.0\Application.pdb
 D:\_programowanie\projects\tasker\Application\obj\Debug\net9.0\ref\Application.dll
+D:\_programowanie\projects\tasker\Application\bin\Debug\net9.0\Infrastructure.dll
+D:\_programowanie\projects\tasker\Application\bin\Debug\net9.0\Infrastructure.pdb

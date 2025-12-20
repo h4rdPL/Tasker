@@ -1,14 +1,22 @@
 using Tasker.Domain.Entities;
+using Tasker.Infrastructure.Helpers;
 
 namespace Tasker.Application.Users;
 
 public class UserService : IUserService
 {
     private static readonly List<User> _users = new();
+    private readonly PasswordHasher _hasher; 
+
+    public UserService(PasswordHasher hasher)   
+    {
+        _hasher = hasher;
+    }
 
     public Task<UserDto> CreateAsync(CreateUserRequest request)
     {
-        var user = new User(request.Email, request.Username);
+        var hash = _hasher.Hash(request.Password);  
+        var user = new User(request.Email, request.Username, hash);
         _users.Add(user);
 
         return Task.FromResult(Map(user));
