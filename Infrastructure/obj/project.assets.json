@@ -1740,11 +1740,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "D:\\_programowanie\\projects\\tasker\\Infrastructure\\Infrastructure.csproj",
+      "projectUniqueName": "D:\\_programowanie\\projects\\Tasker\\Tasker\\Infrastructure\\Infrastructure.csproj",
       "projectName": "Infrastructure",
-      "projectPath": "D:\\_programowanie\\projects\\tasker\\Infrastructure\\Infrastructure.csproj",
+      "projectPath": "D:\\_programowanie\\projects\\Tasker\\Tasker\\Infrastructure\\Infrastructure.csproj",
       "packagesPath": "C:\\Users\\mateu\\.nuget\\packages\\",
-      "outputPath": "D:\\_programowanie\\projects\\tasker\\Infrastructure\\obj\\",
+      "outputPath": "D:\\_programowanie\\projects\\Tasker\\Tasker\\Infrastructure\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
@@ -1766,8 +1766,8 @@
         "net9.0": {
           "targetAlias": "net9.0",
           "projectReferences": {
-            "D:\\_programowanie\\projects\\tasker\\Domain\\Domain.csproj": {
-              "projectPath": "D:\\_programowanie\\projects\\tasker\\Domain\\Domain.csproj"
+            "D:\\_programowanie\\projects\\Tasker\\Tasker\\Domain\\Domain.csproj": {
+              "projectPath": "D:\\_programowanie\\projects\\Tasker\\Tasker\\Domain\\Domain.csproj"
             }
           }
         }
