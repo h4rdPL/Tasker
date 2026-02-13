@@ -1,0 +1,11 @@
+/mnt/d/_programowanie/projects/Tasker/src/Tasker.Domain/bin/Debug/net9.0/Tasker.Domain.deps.json
+/mnt/d/_programowanie/projects/Tasker/src/Tasker.Domain/bin/Debug/net9.0/Tasker.Domain.dll
+/mnt/d/_programowanie/projects/Tasker/src/Tasker.Domain/bin/Debug/net9.0/Tasker.Domain.pdb
+/mnt/d/_programowanie/projects/Tasker/src/Tasker.Domain/obj/Debug/net9.0/Tasker.Domain.GeneratedMSBuildEditorConfig.editorconfig
+/mnt/d/_programowanie/projects/Tasker/src/Tasker.Domain/obj/Debug/net9.0/Tasker.Domain.AssemblyInfoInputs.cache
+/mnt/d/_programowanie/projects/Tasker/src/Tasker.Domain/obj/Debug/net9.0/Tasker.Domain.AssemblyInfo.cs
+/mnt/d/_programowanie/projects/Tasker/src/Tasker.Domain/obj/Debug/net9.0/Tasker.Domain.csproj.CoreCompileInputs.cache
+/mnt/d/_programowanie/projects/Tasker/src/Tasker.Domain/obj/Debug/net9.0/Tasker.Domain.dll
+/mnt/d/_programowanie/projects/Tasker/src/Tasker.Domain/obj/Debug/net9.0/refint/Tasker.Domain.dll
+/mnt/d/_programowanie/projects/Tasker/src/Tasker.Domain/obj/Debug/net9.0/Tasker.Domain.pdb
+/mnt/d/_programowanie/projects/Tasker/src/Tasker.Domain/obj/Debug/net9.0/ref/Tasker.Domain.dll

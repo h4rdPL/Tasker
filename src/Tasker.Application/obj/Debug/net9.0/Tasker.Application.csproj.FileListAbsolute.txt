@@ -1,0 +1,15 @@
+/mnt/d/_programowanie/projects/Tasker/src/Tasker.Application/bin/Debug/net9.0/Tasker.Application.deps.json
+/mnt/d/_programowanie/projects/Tasker/src/Tasker.Application/bin/Debug/net9.0/Tasker.Application.dll
+/mnt/d/_programowanie/projects/Tasker/src/Tasker.Application/bin/Debug/net9.0/Tasker.Application.pdb
+/mnt/d/_programowanie/projects/Tasker/src/Tasker.Application/bin/Debug/net9.0/Tasker.Domain.dll
+/mnt/d/_programowanie/projects/Tasker/src/Tasker.Application/bin/Debug/net9.0/Tasker.Domain.pdb
+/mnt/d/_programowanie/projects/Tasker/src/Tasker.Application/obj/Debug/net9.0/Tasker.Application.csproj.AssemblyReference.cache
+/mnt/d/_programowanie/projects/Tasker/src/Tasker.Application/obj/Debug/net9.0/Tasker.Application.GeneratedMSBuildEditorConfig.editorconfig
+/mnt/d/_programowanie/projects/Tasker/src/Tasker.Application/obj/Debug/net9.0/Tasker.Application.AssemblyInfoInputs.cache
+/mnt/d/_programowanie/projects/Tasker/src/Tasker.Application/obj/Debug/net9.0/Tasker.Application.AssemblyInfo.cs
+/mnt/d/_programowanie/projects/Tasker/src/Tasker.Application/obj/Debug/net9.0/Tasker.Application.csproj.CoreCompileInputs.cache
+/mnt/d/_programowanie/projects/Tasker/src/Tasker.Application/obj/Debug/net9.0/Tasker.A.A12EA957.Up2Date
+/mnt/d/_programowanie/projects/Tasker/src/Tasker.Application/obj/Debug/net9.0/Tasker.Application.dll
+/mnt/d/_programowanie/projects/Tasker/src/Tasker.Application/obj/Debug/net9.0/refint/Tasker.Application.dll
+/mnt/d/_programowanie/projects/Tasker/src/Tasker.Application/obj/Debug/net9.0/Tasker.Application.pdb
+/mnt/d/_programowanie/projects/Tasker/src/Tasker.Application/obj/Debug/net9.0/ref/Tasker.Application.dll

@@ -1,0 +1,95 @@
+{
+  "version": 3,
+  "targets": {
+    "net9.0": {
+      "Tasker.Domain/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v9.0",
+        "compile": {
+          "bin/placeholder/Tasker.Domain.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/Tasker.Domain.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "Tasker.Domain/1.0.0": {
+      "type": "project",
+      "path": "../Tasker.Domain/Tasker.Domain.csproj",
+      "msbuildProject": "../Tasker.Domain/Tasker.Domain.csproj"
+    }
+  },
+  "projectFileDependencyGroups": {
+    "net9.0": [
+      "Tasker.Domain >= 1.0.0"
+    ]
+  },
+  "packageFolders": {
+    "/home/h4rd/.nuget/packages/": {}
+  },
+  "project": {
+    "version": "1.0.0",
+    "restore": {
+      "projectUniqueName": "/mnt/d/_programowanie/projects/Tasker/src/Tasker.Application/Tasker.Application.csproj",
+      "projectName": "Tasker.Application",
+      "projectPath": "/mnt/d/_programowanie/projects/Tasker/src/Tasker.Application/Tasker.Application.csproj",
+      "packagesPath": "/home/h4rd/.nuget/packages/",
+      "outputPath": "/mnt/d/_programowanie/projects/Tasker/src/Tasker.Application/obj/",
+      "projectStyle": "PackageReference",
+      "configFilePaths": [
+        "/home/h4rd/.nuget/NuGet/NuGet.Config"
+      ],
+      "originalTargetFrameworks": [
+        "net9.0"
+      ],
+      "sources": {
+        "https://api.nuget.org/v3/index.json": {}
+      },
+      "frameworks": {
+        "net9.0": {
+          "targetAlias": "net9.0",
+          "projectReferences": {
+            "/mnt/d/_programowanie/projects/Tasker/src/Tasker.Domain/Tasker.Domain.csproj": {
+              "projectPath": "/mnt/d/_programowanie/projects/Tasker/src/Tasker.Domain/Tasker.Domain.csproj"
+            }
+          }
+        }
+      },
+      "warningProperties": {
+        "warnAsError": [
+          "NU1605"
+        ]
+      },
+      "restoreAuditProperties": {
+        "enableAudit": "true",
+        "auditLevel": "low",
+        "auditMode": "direct"
+      },
+      "SdkAnalysisLevel": "9.0.300"
+    },
+    "frameworks": {
+      "net9.0": {
+        "targetAlias": "net9.0",
+        "imports": [
+          "net461",
+          "net462",
+          "net47",
+          "net471",
+          "net472",
+          "net48",
+          "net481"
+        ],
+        "assetTargetFallback": true,
+        "warn": true,
+        "frameworkReferences": {
+          "Microsoft.NETCore.App": {
+            "privateAssets": "all"
+          }
+        },
+        "runtimeIdentifierGraphPath": "/usr/share/dotnet9/sdk/9.0.308/PortableRuntimeIdentifierGraph.json"
+      }
+    }
+  }
+}
