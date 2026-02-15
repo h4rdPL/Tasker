@@ -1603,6 +1603,7 @@
         "type": "project",
         "framework": ".NETCoreApp,Version=v9.0",
         "dependencies": {
+          "Microsoft.Extensions.DependencyInjection.Abstractions": "9.0.12",
           "Tasker.Domain": "1.0.0"
         },
         "compile": {
@@ -4746,32 +4747,40 @@
     ]
   },
   "packageFolders": {
-    "/home/h4rd/.nuget/packages/": {}
+    "C:\\Users\\mateu\\.nuget\\packages\\": {},
+    "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "/mnt/d/_programowanie/projects/Tasker/src/Tasker.Infrastructure/Tasker.Infrastructure.csproj",
+      "projectUniqueName": "D:\\_programowanie\\projects\\Tasker\\src\\Tasker.Infrastructure\\Tasker.Infrastructure.csproj",
       "projectName": "Tasker.Infrastructure",
-      "projectPath": "/mnt/d/_programowanie/projects/Tasker/src/Tasker.Infrastructure/Tasker.Infrastructure.csproj",
-      "packagesPath": "/home/h4rd/.nuget/packages/",
-      "outputPath": "/mnt/d/_programowanie/projects/Tasker/src/Tasker.Infrastructure/obj/",
+      "projectPath": "D:\\_programowanie\\projects\\Tasker\\src\\Tasker.Infrastructure\\Tasker.Infrastructure.csproj",
+      "packagesPath": "C:\\Users\\mateu\\.nuget\\packages\\",
+      "outputPath": "D:\\_programowanie\\projects\\Tasker\\src\\Tasker.Infrastructure\\obj\\",
       "projectStyle": "PackageReference",
+      "fallbackFolders": [
+        "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+      ],
       "configFilePaths": [
-        "/home/h4rd/.nuget/NuGet/NuGet.Config"
+        "C:\\Users\\mateu\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
         "net9.0"
       ],
       "sources": {
+        "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+        "C:\\Program Files\\dotnet\\library-packs": {},
         "https://api.nuget.org/v3/index.json": {}
       },
       "frameworks": {
         "net9.0": {
           "targetAlias": "net9.0",
           "projectReferences": {
-            "/mnt/d/_programowanie/projects/Tasker/src/Tasker.Application/Tasker.Application.csproj": {
-              "projectPath": "/mnt/d/_programowanie/projects/Tasker/src/Tasker.Application/Tasker.Application.csproj"
+            "D:\\_programowanie\\projects\\Tasker\\src\\Tasker.Application\\Tasker.Application.csproj": {
+              "projectPath": "D:\\_programowanie\\projects\\Tasker\\src\\Tasker.Application\\Tasker.Application.csproj"
             }
           }
         }
@@ -4829,7 +4838,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "/usr/share/dotnet9/sdk/9.0.308/PortableRuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.304/PortableRuntimeIdentifierGraph.json"
       }
     }
   }

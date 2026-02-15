@@ -9,3 +9,16 @@
 /mnt/d/_programowanie/projects/Tasker/src/Tasker.Domain/obj/Debug/net9.0/refint/Tasker.Domain.dll
 /mnt/d/_programowanie/projects/Tasker/src/Tasker.Domain/obj/Debug/net9.0/Tasker.Domain.pdb
 /mnt/d/_programowanie/projects/Tasker/src/Tasker.Domain/obj/Debug/net9.0/ref/Tasker.Domain.dll
+/mnt/d/_programowanie/projects/Tasker/src/Tasker.Domain/obj/Debug/net9.0/Tasker.Domain.sourcelink.json
+D:\_programowanie\projects\Tasker\src\Tasker.Domain\bin\Debug\net9.0\Tasker.Domain.deps.json
+D:\_programowanie\projects\Tasker\src\Tasker.Domain\bin\Debug\net9.0\Tasker.Domain.dll
+D:\_programowanie\projects\Tasker\src\Tasker.Domain\bin\Debug\net9.0\Tasker.Domain.pdb
+D:\_programowanie\projects\Tasker\src\Tasker.Domain\obj\Debug\net9.0\Tasker.Domain.GeneratedMSBuildEditorConfig.editorconfig
+D:\_programowanie\projects\Tasker\src\Tasker.Domain\obj\Debug\net9.0\Tasker.Domain.AssemblyInfoInputs.cache
+D:\_programowanie\projects\Tasker\src\Tasker.Domain\obj\Debug\net9.0\Tasker.Domain.AssemblyInfo.cs
+D:\_programowanie\projects\Tasker\src\Tasker.Domain\obj\Debug\net9.0\Tasker.Domain.csproj.CoreCompileInputs.cache
+D:\_programowanie\projects\Tasker\src\Tasker.Domain\obj\Debug\net9.0\Tasker.Domain.sourcelink.json
+D:\_programowanie\projects\Tasker\src\Tasker.Domain\obj\Debug\net9.0\Tasker.Domain.dll
+D:\_programowanie\projects\Tasker\src\Tasker.Domain\obj\Debug\net9.0\refint\Tasker.Domain.dll
+D:\_programowanie\projects\Tasker\src\Tasker.Domain\obj\Debug\net9.0\Tasker.Domain.pdb
+D:\_programowanie\projects\Tasker\src\Tasker.Domain\obj\Debug\net9.0\ref\Tasker.Domain.dll
