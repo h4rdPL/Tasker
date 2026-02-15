@@ -11,4 +11,16 @@ public class AppDbContext : DbContext
     }
 
     public DbSet<TaskItem> Tasks => Set<TaskItem>();
+    public DbSet<Tag> Tags {get; set; }
+
+
+    protected override void OnModelCreating(ModelBuilder modelBuilder)
+    {
+        base.OnModelCreating(modelBuilder);
+
+        modelBuilder.Entity<TaskItem>()
+            .HasMany(t => t.Tags)
+            .WithMany(t => t.Tasks)
+            .UsingEntity(j => j.ToTable("TaskTags"));
+    }
 }

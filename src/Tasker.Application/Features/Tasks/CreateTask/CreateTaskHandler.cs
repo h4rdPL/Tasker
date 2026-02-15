@@ -20,6 +20,15 @@ public class CreateTaskHandler
             command.Deadline
         );
 
+        if (command.Tags != null)
+        {
+            foreach (var tagName in command.Tags)
+            {
+                var tag = new Tag(tagName); 
+                task.AddTag(tag);          
+            }
+        }
+
         await _repository.AddAsync(task, ct);
 
         return task.Id;

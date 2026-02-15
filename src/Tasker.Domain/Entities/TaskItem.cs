@@ -8,6 +8,9 @@ public class TaskItem
     public DateTime? Deadline { get; set; }
     public DateTime CreatedAt { get; set; }
 
+    public ICollection<Tag> Tags { get; set; } = new List<Tag>();
+
+
     private TaskItem() {}
     
     public TaskItem(string title, string? description, DateTime? deadline)
@@ -17,5 +20,14 @@ public class TaskItem
         Description = description;
         Deadline = deadline;
         CreatedAt = DateTime.UtcNow;
+    }
+
+    public void AddTag(Tag tag)
+    {
+        if (!Tags.Contains(tag))
+        {
+            Tags.Add(tag);
+            tag.Tasks.Add(this);
+        }
     }
 }
