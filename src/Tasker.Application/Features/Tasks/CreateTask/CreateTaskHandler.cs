@@ -17,7 +17,8 @@ public class CreateTaskHandler
         var task = new TaskItem(
             command.Title,
             command.Description,
-            command.Deadline
+            command.Deadline,
+            command.Priority
         );
 
         if (command.Tags != null)
