@@ -1,15 +1,18 @@
-using Tasker.Domain.Entities;
+using System;
+using System.Threading;
+using System.Threading.Tasks;
 using Tasker.Domain.Interfaces;
-
+using Tasker.Domain.Entities;
 namespace Tasker.Application.Features.Tasks.CreateTask;
-
 public class CreateTaskHandler
 {
-    private readonly ITaskRepository _repository;
+    private readonly ITaskRepository _taskRepository;
+    private readonly IUserRepository _userRepository;
 
-    public CreateTaskHandler(ITaskRepository repository)
+    public CreateTaskHandler(ITaskRepository taskRepository, IUserRepository userRepository)
     {
-        _repository = repository;
+        _taskRepository = taskRepository;
+        _userRepository = userRepository;
     }
 
     public async Task<Guid> Handle(CreateTaskCommand command, CancellationToken ct)
@@ -25,12 +28,22 @@ public class CreateTaskHandler
         {
             foreach (var tagName in command.Tags)
             {
-                var tag = new Tag(tagName); 
-                task.AddTag(tag);          
+                var tag = new Tag(tagName);
+                task.AddTag(tag);
             }
         }
 
-        await _repository.AddAsync(task, ct);
+        if (command.UserId.HasValue)
+        {
+            var user = await _userRepository.GetByIdAsync(command.UserId.Value, ct);
+            if (user == null)
+                throw new Exception("User not found");
+
+            task.UserId = user.Id;      
+            user.Tasks.Add(task);     
+        }
+
+        await _taskRepository.AddAsync(task, ct);
 
         return task.Id;
     }

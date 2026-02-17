@@ -1,3 +1,4 @@
+using System;
 using Tasker.Domain.Enums;
 namespace Tasker.Domain.Entities;
 
@@ -12,7 +13,8 @@ public class TaskItem
     public TaskPriority Priority {get; private set; }
 
     public ICollection<Tag> Tags { get; set; } = new List<Tag>();
-
+    public Guid? UserId { get; set; }
+    public User? User { get; set; }
 
     private TaskItem() {}
     
