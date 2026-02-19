@@ -17,6 +17,22 @@
   },
   {
     "ContainingType": "Tasker.Api.Controllers.UserController",
+    "Method": "Login",
+    "RelativePath": "api/users/login",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "request",
+        "Type": "Tasker.Application.Features.Users.LoginRequest",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Tasker.Api.Controllers.UserController",
     "Method": "Register",
     "RelativePath": "api/users/register",
     "HttpMethod": "POST",

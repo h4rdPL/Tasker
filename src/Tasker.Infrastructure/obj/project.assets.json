@@ -47,6 +47,19 @@
           }
         }
       },
+      "BCrypt.Net-Next/4.1.0": {
+        "type": "package",
+        "compile": {
+          "lib/netstandard2.1/BCrypt.Net-Next.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/netstandard2.1/BCrypt.Net-Next.dll": {
+            "related": ".xml"
+          }
+        }
+      },
       "Humanizer.Core/2.14.1": {
         "type": "package",
         "compile": {
@@ -1603,6 +1616,7 @@
         "type": "project",
         "framework": ".NETCoreApp,Version=v9.0",
         "dependencies": {
+          "BCrypt.Net-Next": "4.1.0",
           "Microsoft.Extensions.DependencyInjection.Abstractions": "9.0.12",
           "Tasker.Domain": "1.0.0"
         },
@@ -1662,6 +1676,35 @@
         "azureicon.png",
         "lib/netstandard2.0/Azure.Identity.dll",
         "lib/netstandard2.0/Azure.Identity.xml"
+      ]
+    },
+    "BCrypt.Net-Next/4.1.0": {
+      "sha512": "5YT3DKllmtkyW68PjURu/V1TOe4MKiByKwsRNVcfYE1S5KuFTeozdmKzyNzolKiQF391OXCaQtINvYT3j1ERzQ==",
+      "type": "package",
+      "path": "bcrypt.net-next/4.1.0",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "bcrypt.net-next.4.1.0.nupkg.sha512",
+        "bcrypt.net-next.nuspec",
+        "ico.png",
+        "lib/net10.0/BCrypt.Net-Next.dll",
+        "lib/net10.0/BCrypt.Net-Next.xml",
+        "lib/net20/BCrypt.Net-Next.dll",
+        "lib/net20/BCrypt.Net-Next.xml",
+        "lib/net35/BCrypt.Net-Next.dll",
+        "lib/net35/BCrypt.Net-Next.xml",
+        "lib/net462/BCrypt.Net-Next.dll",
+        "lib/net462/BCrypt.Net-Next.xml",
+        "lib/net472/BCrypt.Net-Next.dll",
+        "lib/net472/BCrypt.Net-Next.xml",
+        "lib/net48/BCrypt.Net-Next.dll",
+        "lib/net48/BCrypt.Net-Next.xml",
+        "lib/netstandard2.0/BCrypt.Net-Next.dll",
+        "lib/netstandard2.0/BCrypt.Net-Next.xml",
+        "lib/netstandard2.1/BCrypt.Net-Next.dll",
+        "lib/netstandard2.1/BCrypt.Net-Next.xml",
+        "readme.md"
       ]
     },
     "Humanizer.Core/2.14.1": {
@@ -4753,9 +4796,9 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "D:\\_programowanie\\projects\\Tasker\\src\\Tasker.Infrastructure\\Tasker.Infrastructure.csproj",
+      "projectUniqueName": "D:\\_programowanie\\projects\\tasker\\src\\Tasker.Infrastructure\\Tasker.Infrastructure.csproj",
       "projectName": "Tasker.Infrastructure",
-      "projectPath": "D:\\_programowanie\\projects\\Tasker\\src\\Tasker.Infrastructure\\Tasker.Infrastructure.csproj",
+      "projectPath": "D:\\_programowanie\\projects\\tasker\\src\\Tasker.Infrastructure\\Tasker.Infrastructure.csproj",
       "packagesPath": "C:\\Users\\mateu\\.nuget\\packages\\",
       "outputPath": "D:\\_programowanie\\projects\\tasker\\src\\Tasker.Infrastructure\\obj\\",
       "projectStyle": "PackageReference",
@@ -4779,8 +4822,8 @@
         "net9.0": {
           "targetAlias": "net9.0",
           "projectReferences": {
-            "D:\\_programowanie\\projects\\Tasker\\src\\Tasker.Application\\Tasker.Application.csproj": {
-              "projectPath": "D:\\_programowanie\\projects\\Tasker\\src\\Tasker.Application\\Tasker.Application.csproj"
+            "D:\\_programowanie\\projects\\tasker\\src\\Tasker.Application\\Tasker.Application.csproj": {
+              "projectPath": "D:\\_programowanie\\projects\\tasker\\src\\Tasker.Application\\Tasker.Application.csproj"
             }
           }
         }

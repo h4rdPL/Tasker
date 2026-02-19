@@ -2,6 +2,19 @@
   "version": 3,
   "targets": {
     "net9.0": {
+      "BCrypt.Net-Next/4.1.0": {
+        "type": "package",
+        "compile": {
+          "lib/netstandard2.1/BCrypt.Net-Next.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/netstandard2.1/BCrypt.Net-Next.dll": {
+            "related": ".xml"
+          }
+        }
+      },
       "Microsoft.Extensions.DependencyInjection.Abstractions/9.0.12": {
         "type": "package",
         "compile": {
@@ -31,6 +44,35 @@
     }
   },
   "libraries": {
+    "BCrypt.Net-Next/4.1.0": {
+      "sha512": "5YT3DKllmtkyW68PjURu/V1TOe4MKiByKwsRNVcfYE1S5KuFTeozdmKzyNzolKiQF391OXCaQtINvYT3j1ERzQ==",
+      "type": "package",
+      "path": "bcrypt.net-next/4.1.0",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "bcrypt.net-next.4.1.0.nupkg.sha512",
+        "bcrypt.net-next.nuspec",
+        "ico.png",
+        "lib/net10.0/BCrypt.Net-Next.dll",
+        "lib/net10.0/BCrypt.Net-Next.xml",
+        "lib/net20/BCrypt.Net-Next.dll",
+        "lib/net20/BCrypt.Net-Next.xml",
+        "lib/net35/BCrypt.Net-Next.dll",
+        "lib/net35/BCrypt.Net-Next.xml",
+        "lib/net462/BCrypt.Net-Next.dll",
+        "lib/net462/BCrypt.Net-Next.xml",
+        "lib/net472/BCrypt.Net-Next.dll",
+        "lib/net472/BCrypt.Net-Next.xml",
+        "lib/net48/BCrypt.Net-Next.dll",
+        "lib/net48/BCrypt.Net-Next.xml",
+        "lib/netstandard2.0/BCrypt.Net-Next.dll",
+        "lib/netstandard2.0/BCrypt.Net-Next.xml",
+        "lib/netstandard2.1/BCrypt.Net-Next.dll",
+        "lib/netstandard2.1/BCrypt.Net-Next.xml",
+        "readme.md"
+      ]
+    },
     "Microsoft.Extensions.DependencyInjection.Abstractions/9.0.12": {
       "sha512": "giBjLNJewLe2baQBmLp+8/HSm05WBA//Pd8G5of5G1qrT8a+KLg6mYE6k7w9GFLjYG8ckKyTC9u2yoA0b0J8kg==",
       "type": "package",
@@ -69,6 +111,7 @@
   },
   "projectFileDependencyGroups": {
     "net9.0": [
+      "BCrypt.Net-Next >= 4.1.0",
       "Microsoft.Extensions.DependencyInjection.Abstractions >= 9.0.12",
       "Tasker.Domain >= 1.0.0"
     ]
@@ -80,9 +123,9 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "D:\\_programowanie\\projects\\Tasker\\src\\Tasker.Application\\Tasker.Application.csproj",
+      "projectUniqueName": "D:\\_programowanie\\projects\\tasker\\src\\Tasker.Application\\Tasker.Application.csproj",
       "projectName": "Tasker.Application",
-      "projectPath": "D:\\_programowanie\\projects\\Tasker\\src\\Tasker.Application\\Tasker.Application.csproj",
+      "projectPath": "D:\\_programowanie\\projects\\tasker\\src\\Tasker.Application\\Tasker.Application.csproj",
       "packagesPath": "C:\\Users\\mateu\\.nuget\\packages\\",
       "outputPath": "D:\\_programowanie\\projects\\tasker\\src\\Tasker.Application\\obj\\",
       "projectStyle": "PackageReference",
@@ -106,8 +149,8 @@
         "net9.0": {
           "targetAlias": "net9.0",
           "projectReferences": {
-            "D:\\_programowanie\\projects\\Tasker\\src\\Tasker.Domain\\Tasker.Domain.csproj": {
-              "projectPath": "D:\\_programowanie\\projects\\Tasker\\src\\Tasker.Domain\\Tasker.Domain.csproj"
+            "D:\\_programowanie\\projects\\tasker\\src\\Tasker.Domain\\Tasker.Domain.csproj": {
+              "projectPath": "D:\\_programowanie\\projects\\tasker\\src\\Tasker.Domain\\Tasker.Domain.csproj"
             }
           }
         }
@@ -128,6 +171,10 @@
       "net9.0": {
         "targetAlias": "net9.0",
         "dependencies": {
+          "BCrypt.Net-Next": {
+            "target": "Package",
+            "version": "[4.1.0, )"
+          },
           "Microsoft.Extensions.DependencyInjection.Abstractions": {
             "target": "Package",
             "version": "[9.0.12, )"

@@ -513,3 +513,6 @@ D:\_programowanie\projects\Tasker\src\Tasker.Api\obj\Debug\net9.0\refint\Tasker.
 D:\_programowanie\projects\Tasker\src\Tasker.Api\obj\Debug\net9.0\Tasker.Api.pdb
 D:\_programowanie\projects\Tasker\src\Tasker.Api\obj\Debug\net9.0\Tasker.Api.genruntimeconfig.cache
 D:\_programowanie\projects\Tasker\src\Tasker.Api\obj\Debug\net9.0\ref\Tasker.Api.dll
+D:\_programowanie\projects\tasker\src\Tasker.Api\bin\Debug\net9.0\BCrypt.Net-Next.dll
+D:\_programowanie\projects\tasker\src\Tasker.Api\bin\Debug\net9.0\Microsoft.AspNetCore.Authentication.JwtBearer.dll
+D:\_programowanie\projects\tasker\src\Tasker.Api\obj\Debug\net9.0\staticwebassets.upToDateCheck.txt

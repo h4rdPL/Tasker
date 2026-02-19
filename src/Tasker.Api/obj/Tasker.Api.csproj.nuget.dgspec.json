@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "D:\\_programowanie\\projects\\Tasker\\src\\Tasker.Api\\Tasker.Api.csproj": {}
+    "D:\\_programowanie\\projects\\tasker\\src\\Tasker.Api\\Tasker.Api.csproj": {}
   },
   "projects": {
-    "D:\\_programowanie\\projects\\Tasker\\src\\Tasker.Api\\Tasker.Api.csproj": {
+    "D:\\_programowanie\\projects\\tasker\\src\\Tasker.Api\\Tasker.Api.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\_programowanie\\projects\\Tasker\\src\\Tasker.Api\\Tasker.Api.csproj",
+        "projectUniqueName": "D:\\_programowanie\\projects\\tasker\\src\\Tasker.Api\\Tasker.Api.csproj",
         "projectName": "Tasker.Api",
-        "projectPath": "D:\\_programowanie\\projects\\Tasker\\src\\Tasker.Api\\Tasker.Api.csproj",
+        "projectPath": "D:\\_programowanie\\projects\\tasker\\src\\Tasker.Api\\Tasker.Api.csproj",
         "packagesPath": "C:\\Users\\mateu\\.nuget\\packages\\",
-        "outputPath": "D:\\_programowanie\\projects\\Tasker\\src\\Tasker.Api\\obj\\",
+        "outputPath": "D:\\_programowanie\\projects\\tasker\\src\\Tasker.Api\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
@@ -33,11 +33,11 @@
           "net9.0": {
             "targetAlias": "net9.0",
             "projectReferences": {
-              "D:\\_programowanie\\projects\\Tasker\\src\\Tasker.Application\\Tasker.Application.csproj": {
-                "projectPath": "D:\\_programowanie\\projects\\Tasker\\src\\Tasker.Application\\Tasker.Application.csproj"
+              "D:\\_programowanie\\projects\\tasker\\src\\Tasker.Application\\Tasker.Application.csproj": {
+                "projectPath": "D:\\_programowanie\\projects\\tasker\\src\\Tasker.Application\\Tasker.Application.csproj"
               },
-              "D:\\_programowanie\\projects\\Tasker\\src\\Tasker.Infrastructure\\Tasker.Infrastructure.csproj": {
-                "projectPath": "D:\\_programowanie\\projects\\Tasker\\src\\Tasker.Infrastructure\\Tasker.Infrastructure.csproj"
+              "D:\\_programowanie\\projects\\tasker\\src\\Tasker.Infrastructure\\Tasker.Infrastructure.csproj": {
+                "projectPath": "D:\\_programowanie\\projects\\tasker\\src\\Tasker.Infrastructure\\Tasker.Infrastructure.csproj"
               }
             }
           }
@@ -58,6 +58,14 @@
         "net9.0": {
           "targetAlias": "net9.0",
           "dependencies": {
+            "BCrypt.Net-Next": {
+              "target": "Package",
+              "version": "[4.1.0, )"
+            },
+            "Microsoft.AspNetCore.Authentication.JwtBearer": {
+              "target": "Package",
+              "version": "[9.0.0, )"
+            },
             "Microsoft.AspNetCore.OpenApi": {
               "target": "Package",
               "version": "[9.0.11, )"
@@ -100,14 +108,14 @@
         }
       }
     },
-    "D:\\_programowanie\\projects\\Tasker\\src\\Tasker.Application\\Tasker.Application.csproj": {
+    "D:\\_programowanie\\projects\\tasker\\src\\Tasker.Application\\Tasker.Application.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\_programowanie\\projects\\Tasker\\src\\Tasker.Application\\Tasker.Application.csproj",
+        "projectUniqueName": "D:\\_programowanie\\projects\\tasker\\src\\Tasker.Application\\Tasker.Application.csproj",
         "projectName": "Tasker.Application",
-        "projectPath": "D:\\_programowanie\\projects\\Tasker\\src\\Tasker.Application\\Tasker.Application.csproj",
+        "projectPath": "D:\\_programowanie\\projects\\tasker\\src\\Tasker.Application\\Tasker.Application.csproj",
         "packagesPath": "C:\\Users\\mateu\\.nuget\\packages\\",
-        "outputPath": "D:\\_programowanie\\projects\\Tasker\\src\\Tasker.Application\\obj\\",
+        "outputPath": "D:\\_programowanie\\projects\\tasker\\src\\Tasker.Application\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
@@ -129,8 +137,8 @@
           "net9.0": {
             "targetAlias": "net9.0",
             "projectReferences": {
-              "D:\\_programowanie\\projects\\Tasker\\src\\Tasker.Domain\\Tasker.Domain.csproj": {
-                "projectPath": "D:\\_programowanie\\projects\\Tasker\\src\\Tasker.Domain\\Tasker.Domain.csproj"
+              "D:\\_programowanie\\projects\\tasker\\src\\Tasker.Domain\\Tasker.Domain.csproj": {
+                "projectPath": "D:\\_programowanie\\projects\\tasker\\src\\Tasker.Domain\\Tasker.Domain.csproj"
               }
             }
           }
@@ -151,6 +159,10 @@
         "net9.0": {
           "targetAlias": "net9.0",
           "dependencies": {
+            "BCrypt.Net-Next": {
+              "target": "Package",
+              "version": "[4.1.0, )"
+            },
             "Microsoft.Extensions.DependencyInjection.Abstractions": {
               "target": "Package",
               "version": "[9.0.12, )"
@@ -176,14 +188,14 @@
         }
       }
     },
-    "D:\\_programowanie\\projects\\Tasker\\src\\Tasker.Domain\\Tasker.Domain.csproj": {
+    "D:\\_programowanie\\projects\\tasker\\src\\Tasker.Domain\\Tasker.Domain.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\_programowanie\\projects\\Tasker\\src\\Tasker.Domain\\Tasker.Domain.csproj",
+        "projectUniqueName": "D:\\_programowanie\\projects\\tasker\\src\\Tasker.Domain\\Tasker.Domain.csproj",
         "projectName": "Tasker.Domain",
-        "projectPath": "D:\\_programowanie\\projects\\Tasker\\src\\Tasker.Domain\\Tasker.Domain.csproj",
+        "projectPath": "D:\\_programowanie\\projects\\tasker\\src\\Tasker.Domain\\Tasker.Domain.csproj",
         "packagesPath": "C:\\Users\\mateu\\.nuget\\packages\\",
-        "outputPath": "D:\\_programowanie\\projects\\Tasker\\src\\Tasker.Domain\\obj\\",
+        "outputPath": "D:\\_programowanie\\projects\\tasker\\src\\Tasker.Domain\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
@@ -242,14 +254,14 @@
         }
       }
     },
-    "D:\\_programowanie\\projects\\Tasker\\src\\Tasker.Infrastructure\\Tasker.Infrastructure.csproj": {
+    "D:\\_programowanie\\projects\\tasker\\src\\Tasker.Infrastructure\\Tasker.Infrastructure.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\_programowanie\\projects\\Tasker\\src\\Tasker.Infrastructure\\Tasker.Infrastructure.csproj",
+        "projectUniqueName": "D:\\_programowanie\\projects\\tasker\\src\\Tasker.Infrastructure\\Tasker.Infrastructure.csproj",
         "projectName": "Tasker.Infrastructure",
-        "projectPath": "D:\\_programowanie\\projects\\Tasker\\src\\Tasker.Infrastructure\\Tasker.Infrastructure.csproj",
+        "projectPath": "D:\\_programowanie\\projects\\tasker\\src\\Tasker.Infrastructure\\Tasker.Infrastructure.csproj",
         "packagesPath": "C:\\Users\\mateu\\.nuget\\packages\\",
-        "outputPath": "D:\\_programowanie\\projects\\Tasker\\src\\Tasker.Infrastructure\\obj\\",
+        "outputPath": "D:\\_programowanie\\projects\\tasker\\src\\Tasker.Infrastructure\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
@@ -271,8 +283,8 @@
           "net9.0": {
             "targetAlias": "net9.0",
             "projectReferences": {
-              "D:\\_programowanie\\projects\\Tasker\\src\\Tasker.Application\\Tasker.Application.csproj": {
-                "projectPath": "D:\\_programowanie\\projects\\Tasker\\src\\Tasker.Application\\Tasker.Application.csproj"
+              "D:\\_programowanie\\projects\\tasker\\src\\Tasker.Application\\Tasker.Application.csproj": {
+                "projectPath": "D:\\_programowanie\\projects\\tasker\\src\\Tasker.Application\\Tasker.Application.csproj"
               }
             }
           }
