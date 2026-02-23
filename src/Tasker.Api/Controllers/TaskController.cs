@@ -1,8 +1,10 @@
+using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Mvc;
+using System.Security.Claims;
 using Tasker.Application.Features.Tasks.CreateTask;
 
 namespace Tasker.Api.Controllers;
-
+[Authorize]
 [ApiController]
 [Route("api/tasks")]
 public class TasksController : ControllerBase
@@ -15,11 +17,19 @@ public class TasksController : ControllerBase
     }
 
     [HttpPost]
+    [Authorize]
     public async Task<IActionResult> Create(
-        CreateTaskCommand command,
+        [FromBody] CreateTaskCommand command,
         CancellationToken ct)
     {
-        var id = await _handler.Handle(command, ct);
+        var userIdClaim = User.FindFirst(ClaimTypes.NameIdentifier);
+
+        if (userIdClaim == null)
+            return Unauthorized("User ID claim missing");
+
+        var userId = Guid.Parse(userIdClaim.Value);
+
+        var id = await _handler.Handle(command, userId, ct);
 
         return CreatedAtAction(nameof(Create), new { id }, id);
     }

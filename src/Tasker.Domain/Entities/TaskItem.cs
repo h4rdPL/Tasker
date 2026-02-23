@@ -12,10 +12,14 @@ public class TaskItem
     public TaskState Status {get; private set; }
     public TaskPriority Priority {get; private set; }
 
+    public List<TaskComment> Comments { get; private set; } = new();
+
     public ICollection<Tag> Tags { get; set; } = new List<Tag>();
     public Guid? UserId { get; set; }
     public User? User { get; set; }
 
+    public Guid? ProjectId { get; set; }
+    public Guid? AssignedToUserId { get; private set; }
     private TaskItem() {}
     
     public TaskItem(string title, string? description, DateTime? deadline, TaskPriority priority)
@@ -36,5 +40,16 @@ public class TaskItem
             Tags.Add(tag);
             tag.Tasks.Add(this);
         }
+    }
+
+    public void AssignTo(Guid userId)
+    {
+        AssignedToUserId = userId;
+    }
+
+    public void AddComment(Guid authorId, string content)
+    {
+        var comment = new TaskComment(this.Id, authorId, content);
+        Comments.Add(comment);
     }
 }

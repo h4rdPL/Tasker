@@ -1,13 +1,16 @@
+using Microsoft.IdentityModel.Tokens;
 using Scalar.AspNetCore;
+using System.Text;
 using Tasker.Application;
+using Tasker.Application.Features.Projects.CreateProject;
+using Tasker.Application.Features.TaskComments;
 using Tasker.Application.Features.Users;
 using Tasker.Application.Interfaces;
 using Tasker.Domain.Interfaces;
 using Tasker.Infrastructure;
+using Tasker.Infrastructure.Persistence.Repositories;
 using Tasker.Infrastructure.Repositories;
 using Tasker.Infrastructure.Security;
-using Microsoft.IdentityModel.Tokens;
-using System.Text;
 
 var builder = WebApplication.CreateBuilder(args);
 
@@ -20,7 +23,14 @@ builder.Services.AddScoped<IPasswordHasher, PasswordHasher>();
 builder.Services.AddScoped<RegisterUserHandler>();
 builder.Services.AddScoped<LoginHandler>();
 builder.Services.AddScoped<IJwtTokenGenerator, JwtTokenGenerator>();
+builder.Services.AddScoped<IProjectRepository, ProjectRepository>();
+builder.Services.AddScoped<CreateProjectHandler>();
 
+builder.Services.AddScoped<TaskCommentHandler>();
+
+builder.Services.AddScoped<ITaskRepository, TaskRepository>();
+builder.Services.AddScoped<IUserRepository, UserRepository>();
+builder.Services.AddScoped<ITaskCommentRepository, TaskCommentRepository>(); 
 builder.Services.AddAuthentication("Bearer")
     .AddJwtBearer("Bearer", options =>
     {

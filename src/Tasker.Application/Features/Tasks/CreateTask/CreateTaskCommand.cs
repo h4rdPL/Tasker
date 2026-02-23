@@ -1,4 +1,3 @@
-using System;
 using Tasker.Domain.Enums;
 namespace Tasker.Application.Features.Tasks.CreateTask;
 
@@ -8,5 +7,5 @@ public record CreateTaskCommand(
     DateTime? Deadline,
     List<string>? Tags,
     TaskPriority Priority,
-    Guid? UserId
+    Guid? ProjectId
 );

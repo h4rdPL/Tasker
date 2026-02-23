@@ -3,16 +3,132 @@
   "WorkspaceRootPath": "D:\\_programowanie\\projects\\Tasker\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{38F50905-25D7-47F4-A507-F01E9C88D541}|src\\Tasker.Api\\Tasker.Api.csproj|d:\\_programowanie\\projects\\tasker\\src\\tasker.api\\controllers\\usercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{38F50905-25D7-47F4-A507-F01E9C88D541}|src\\Tasker.Api\\Tasker.Api.csproj|solutionrelative:src\\tasker.api\\controllers\\usercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{47A4BE28-1919-40F5-8E72-C58F401696E2}|src\\Tasker.Application\\Tasker.Application.csproj|d:\\_programowanie\\projects\\tasker\\src\\tasker.application\\features\\tasks\\taskcomment\\taskcommenthandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{47A4BE28-1919-40F5-8E72-C58F401696E2}|src\\Tasker.Application\\Tasker.Application.csproj|solutionrelative:src\\tasker.application\\features\\tasks\\taskcomment\\taskcommenthandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{47A4BE28-1919-40F5-8E72-C58F401696E2}|src\\Tasker.Application\\Tasker.Application.csproj|d:\\_programowanie\\projects\\tasker\\src\\tasker.application\\features\\users\\loginhandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{47A4BE28-1919-40F5-8E72-C58F401696E2}|src\\Tasker.Application\\Tasker.Application.csproj|solutionrelative:src\\tasker.application\\features\\users\\loginhandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{2304375D-0870-4D6E-AD91-EB84C53396E4}|src\\Tasker.Infrastructure\\Tasker.Infrastructure.csproj|d:\\_programowanie\\projects\\tasker\\src\\tasker.infrastructure\\repositories\\taskrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2304375D-0870-4D6E-AD91-EB84C53396E4}|src\\Tasker.Infrastructure\\Tasker.Infrastructure.csproj|solutionrelative:src\\tasker.infrastructure\\repositories\\taskrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9C4A983E-79B7-459D-9292-867182E8F3DA}|src\\Tasker.Domain\\Tasker.Domain.csproj|d:\\_programowanie\\projects\\tasker\\src\\tasker.domain\\entities\\taskcomment.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9C4A983E-79B7-459D-9292-867182E8F3DA}|src\\Tasker.Domain\\Tasker.Domain.csproj|solutionrelative:src\\tasker.domain\\entities\\taskcomment.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9C4A983E-79B7-459D-9292-867182E8F3DA}|src\\Tasker.Domain\\Tasker.Domain.csproj|d:\\_programowanie\\projects\\tasker\\src\\tasker.domain\\entities\\taskitem.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9C4A983E-79B7-459D-9292-867182E8F3DA}|src\\Tasker.Domain\\Tasker.Domain.csproj|solutionrelative:src\\tasker.domain\\entities\\taskitem.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{38F50905-25D7-47F4-A507-F01E9C88D541}|src\\Tasker.Api\\Tasker.Api.csproj|d:\\_programowanie\\projects\\tasker\\src\\tasker.api\\controllers\\commentcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{38F50905-25D7-47F4-A507-F01E9C88D541}|src\\Tasker.Api\\Tasker.Api.csproj|solutionrelative:src\\tasker.api\\controllers\\commentcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2304375D-0870-4D6E-AD91-EB84C53396E4}|src\\Tasker.Infrastructure\\Tasker.Infrastructure.csproj|d:\\_programowanie\\projects\\tasker\\src\\tasker.infrastructure\\repositories\\taskcommentrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2304375D-0870-4D6E-AD91-EB84C53396E4}|src\\Tasker.Infrastructure\\Tasker.Infrastructure.csproj|solutionrelative:src\\tasker.infrastructure\\repositories\\taskcommentrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2304375D-0870-4D6E-AD91-EB84C53396E4}|src\\Tasker.Infrastructure\\Tasker.Infrastructure.csproj|d:\\_programowanie\\projects\\tasker\\src\\tasker.infrastructure\\persistence\\appdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2304375D-0870-4D6E-AD91-EB84C53396E4}|src\\Tasker.Infrastructure\\Tasker.Infrastructure.csproj|solutionrelative:src\\tasker.infrastructure\\persistence\\appdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{38F50905-25D7-47F4-A507-F01E9C88D541}|src\\Tasker.Api\\Tasker.Api.csproj|d:\\_programowanie\\projects\\tasker\\src\\tasker.api\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{38F50905-25D7-47F4-A507-F01E9C88D541}|src\\Tasker.Api\\Tasker.Api.csproj|solutionrelative:src\\tasker.api\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9C4A983E-79B7-459D-9292-867182E8F3DA}|src\\Tasker.Domain\\Tasker.Domain.csproj|d:\\_programowanie\\projects\\tasker\\src\\tasker.domain\\interfaces\\itaskrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9C4A983E-79B7-459D-9292-867182E8F3DA}|src\\Tasker.Domain\\Tasker.Domain.csproj|solutionrelative:src\\tasker.domain\\interfaces\\itaskrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2304375D-0870-4D6E-AD91-EB84C53396E4}|src\\Tasker.Infrastructure\\Tasker.Infrastructure.csproj|d:\\_programowanie\\projects\\tasker\\src\\tasker.infrastructure\\repositories\\projectrepositories.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2304375D-0870-4D6E-AD91-EB84C53396E4}|src\\Tasker.Infrastructure\\Tasker.Infrastructure.csproj|solutionrelative:src\\tasker.infrastructure\\repositories\\projectrepositories.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9C4A983E-79B7-459D-9292-867182E8F3DA}|src\\Tasker.Domain\\Tasker.Domain.csproj|d:\\_programowanie\\projects\\tasker\\src\\tasker.domain\\interfaces\\itaskcommentrepostory.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9C4A983E-79B7-459D-9292-867182E8F3DA}|src\\Tasker.Domain\\Tasker.Domain.csproj|solutionrelative:src\\tasker.domain\\interfaces\\itaskcommentrepostory.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9C4A983E-79B7-459D-9292-867182E8F3DA}|src\\Tasker.Domain\\Tasker.Domain.csproj|d:\\_programowanie\\projects\\tasker\\src\\tasker.domain\\interfaces\\iuserrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9C4A983E-79B7-459D-9292-867182E8F3DA}|src\\Tasker.Domain\\Tasker.Domain.csproj|solutionrelative:src\\tasker.domain\\interfaces\\iuserrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{2304375D-0870-4D6E-AD91-EB84C53396E4}|src\\Tasker.Infrastructure\\Tasker.Infrastructure.csproj|d:\\_programowanie\\projects\\tasker\\src\\tasker.infrastructure\\security\\passwordhasher.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{2304375D-0870-4D6E-AD91-EB84C53396E4}|src\\Tasker.Infrastructure\\Tasker.Infrastructure.csproj|solutionrelative:src\\tasker.infrastructure\\security\\passwordhasher.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{38F50905-25D7-47F4-A507-F01E9C88D541}|src\\Tasker.Api\\Tasker.Api.csproj|d:\\_programowanie\\projects\\tasker\\src\\tasker.api\\controllers\\taskcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{38F50905-25D7-47F4-A507-F01E9C88D541}|src\\Tasker.Api\\Tasker.Api.csproj|solutionrelative:src\\tasker.api\\controllers\\taskcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{38F50905-25D7-47F4-A507-F01E9C88D541}|src\\Tasker.Api\\Tasker.Api.csproj|d:\\_programowanie\\projects\\tasker\\src\\tasker.api\\controllers\\usercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{38F50905-25D7-47F4-A507-F01E9C88D541}|src\\Tasker.Api\\Tasker.Api.csproj|solutionrelative:src\\tasker.api\\controllers\\usercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{38F50905-25D7-47F4-A507-F01E9C88D541}|src\\Tasker.Api\\Tasker.Api.csproj|d:\\_programowanie\\projects\\tasker\\src\\tasker.api\\controllers\\projectcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{38F50905-25D7-47F4-A507-F01E9C88D541}|src\\Tasker.Api\\Tasker.Api.csproj|solutionrelative:src\\tasker.api\\controllers\\projectcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{47A4BE28-1919-40F5-8E72-C58F401696E2}|src\\Tasker.Application\\Tasker.Application.csproj|d:\\_programowanie\\projects\\tasker\\src\\tasker.application\\features\\tasks\\createtask\\createtaskhandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{47A4BE28-1919-40F5-8E72-C58F401696E2}|src\\Tasker.Application\\Tasker.Application.csproj|solutionrelative:src\\tasker.application\\features\\tasks\\createtask\\createtaskhandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{47A4BE28-1919-40F5-8E72-C58F401696E2}|src\\Tasker.Application\\Tasker.Application.csproj|d:\\_programowanie\\projects\\tasker\\src\\tasker.application\\features\\tasks\\createproject\\createprojecthandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{47A4BE28-1919-40F5-8E72-C58F401696E2}|src\\Tasker.Application\\Tasker.Application.csproj|solutionrelative:src\\tasker.application\\features\\tasks\\createproject\\createprojecthandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{47A4BE28-1919-40F5-8E72-C58F401696E2}|src\\Tasker.Application\\Tasker.Application.csproj|d:\\_programowanie\\projects\\tasker\\src\\tasker.application\\features\\tasks\\createproject\\createprojectcommand.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{47A4BE28-1919-40F5-8E72-C58F401696E2}|src\\Tasker.Application\\Tasker.Application.csproj|solutionrelative:src\\tasker.application\\features\\tasks\\createproject\\createprojectcommand.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9C4A983E-79B7-459D-9292-867182E8F3DA}|src\\Tasker.Domain\\Tasker.Domain.csproj|d:\\_programowanie\\projects\\tasker\\src\\tasker.domain\\entities\\project.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9C4A983E-79B7-459D-9292-867182E8F3DA}|src\\Tasker.Domain\\Tasker.Domain.csproj|solutionrelative:src\\tasker.domain\\entities\\project.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{47A4BE28-1919-40F5-8E72-C58F401696E2}|src\\Tasker.Application\\Tasker.Application.csproj|d:\\_programowanie\\projects\\tasker\\src\\tasker.application\\features\\tasks\\createtask\\createtaskcommand.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{47A4BE28-1919-40F5-8E72-C58F401696E2}|src\\Tasker.Application\\Tasker.Application.csproj|solutionrelative:src\\tasker.application\\features\\tasks\\createtask\\createtaskcommand.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9C4A983E-79B7-459D-9292-867182E8F3DA}|src\\Tasker.Domain\\Tasker.Domain.csproj|d:\\_programowanie\\projects\\tasker\\src\\tasker.domain\\interfaces\\iprojectrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9C4A983E-79B7-459D-9292-867182E8F3DA}|src\\Tasker.Domain\\Tasker.Domain.csproj|solutionrelative:src\\tasker.domain\\interfaces\\iprojectrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{47A4BE28-1919-40F5-8E72-C58F401696E2}|src\\Tasker.Application\\Tasker.Application.csproj|d:\\_programowanie\\projects\\tasker\\src\\tasker.application\\features\\users\\registerusercommand.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{47A4BE28-1919-40F5-8E72-C58F401696E2}|src\\Tasker.Application\\Tasker.Application.csproj|solutionrelative:src\\tasker.application\\features\\users\\registerusercommand.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{47A4BE28-1919-40F5-8E72-C58F401696E2}|src\\Tasker.Application\\Tasker.Application.csproj|d:\\_programowanie\\projects\\tasker\\src\\tasker.application\\features\\users\\loginrequest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{47A4BE28-1919-40F5-8E72-C58F401696E2}|src\\Tasker.Application\\Tasker.Application.csproj|solutionrelative:src\\tasker.application\\features\\users\\loginrequest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{47A4BE28-1919-40F5-8E72-C58F401696E2}|src\\Tasker.Application\\Tasker.Application.csproj|d:\\_programowanie\\projects\\tasker\\src\\tasker.application\\features\\users\\lognusercommand.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{47A4BE28-1919-40F5-8E72-C58F401696E2}|src\\Tasker.Application\\Tasker.Application.csproj|solutionrelative:src\\tasker.application\\features\\users\\lognusercommand.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9C4A983E-79B7-459D-9292-867182E8F3DA}|src\\Tasker.Domain\\Tasker.Domain.csproj|d:\\_programowanie\\projects\\tasker\\src\\tasker.domain\\entities\\projectmember.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9C4A983E-79B7-459D-9292-867182E8F3DA}|src\\Tasker.Domain\\Tasker.Domain.csproj|solutionrelative:src\\tasker.domain\\entities\\projectmember.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9C4A983E-79B7-459D-9292-867182E8F3DA}|src\\Tasker.Domain\\Tasker.Domain.csproj|d:\\_programowanie\\projects\\tasker\\src\\tasker.domain\\entities\\taskattachment.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9C4A983E-79B7-459D-9292-867182E8F3DA}|src\\Tasker.Domain\\Tasker.Domain.csproj|solutionrelative:src\\tasker.domain\\entities\\taskattachment.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9C4A983E-79B7-459D-9292-867182E8F3DA}|src\\Tasker.Domain\\Tasker.Domain.csproj|d:\\_programowanie\\projects\\tasker\\src\\tasker.domain\\entities\\projectinvitation.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9C4A983E-79B7-459D-9292-867182E8F3DA}|src\\Tasker.Domain\\Tasker.Domain.csproj|solutionrelative:src\\tasker.domain\\entities\\projectinvitation.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9C4A983E-79B7-459D-9292-867182E8F3DA}|src\\Tasker.Domain\\Tasker.Domain.csproj|d:\\_programowanie\\projects\\tasker\\src\\tasker.domain\\entities\\taskmention.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9C4A983E-79B7-459D-9292-867182E8F3DA}|src\\Tasker.Domain\\Tasker.Domain.csproj|solutionrelative:src\\tasker.domain\\entities\\taskmention.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9C4A983E-79B7-459D-9292-867182E8F3DA}|src\\Tasker.Domain\\Tasker.Domain.csproj|d:\\_programowanie\\projects\\tasker\\src\\tasker.domain\\entities\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9C4A983E-79B7-459D-9292-867182E8F3DA}|src\\Tasker.Domain\\Tasker.Domain.csproj|solutionrelative:src\\tasker.domain\\entities\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9C4A983E-79B7-459D-9292-867182E8F3DA}|src\\Tasker.Domain\\Tasker.Domain.csproj|d:\\_programowanie\\projects\\tasker\\src\\tasker.domain\\enums\\projectrole.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9C4A983E-79B7-459D-9292-867182E8F3DA}|src\\Tasker.Domain\\Tasker.Domain.csproj|solutionrelative:src\\tasker.domain\\enums\\projectrole.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{47A4BE28-1919-40F5-8E72-C58F401696E2}|src\\Tasker.Application\\Tasker.Application.csproj|d:\\_programowanie\\projects\\tasker\\src\\tasker.application\\features\\users\\loginhandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{47A4BE28-1919-40F5-8E72-C58F401696E2}|src\\Tasker.Application\\Tasker.Application.csproj|solutionrelative:src\\tasker.application\\features\\users\\loginhandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -27,32 +143,188 @@
             {
               "$type": "Document",
               "DocumentIndex": 0,
+              "Title": "TaskCommentHandler.cs",
+              "DocumentMoniker": "D:\\_programowanie\\projects\\Tasker\\src\\Tasker.Application\\Features\\Tasks\\TaskComment\\TaskCommentHandler.cs",
+              "RelativeDocumentMoniker": "src\\Tasker.Application\\Features\\Tasks\\TaskComment\\TaskCommentHandler.cs",
+              "ToolTip": "D:\\_programowanie\\projects\\Tasker\\src\\Tasker.Application\\Features\\Tasks\\TaskComment\\TaskCommentHandler.cs",
+              "RelativeToolTip": "src\\Tasker.Application\\Features\\Tasks\\TaskComment\\TaskCommentHandler.cs",
+              "ViewState": "AgIAABQAAAAAAAAAAAAUwCMAAAArAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-02-22T17:41:26.989Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "TaskRepository.cs",
+              "DocumentMoniker": "D:\\_programowanie\\projects\\Tasker\\src\\Tasker.Infrastructure\\Repositories\\TaskRepository.cs",
+              "RelativeDocumentMoniker": "src\\Tasker.Infrastructure\\Repositories\\TaskRepository.cs",
+              "ToolTip": "D:\\_programowanie\\projects\\Tasker\\src\\Tasker.Infrastructure\\Repositories\\TaskRepository.cs",
+              "RelativeToolTip": "src\\Tasker.Infrastructure\\Repositories\\TaskRepository.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAACEAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-02-20T12:20:54.295Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "AppDbContext.cs",
+              "DocumentMoniker": "D:\\_programowanie\\projects\\Tasker\\src\\Tasker.Infrastructure\\Persistence\\AppDbContext.cs",
+              "RelativeDocumentMoniker": "src\\Tasker.Infrastructure\\Persistence\\AppDbContext.cs",
+              "ToolTip": "D:\\_programowanie\\projects\\Tasker\\src\\Tasker.Infrastructure\\Persistence\\AppDbContext.cs",
+              "RelativeToolTip": "src\\Tasker.Infrastructure\\Persistence\\AppDbContext.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAADkAAAAwAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-02-20T19:23:12.559Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "Program.cs",
+              "DocumentMoniker": "D:\\_programowanie\\projects\\Tasker\\src\\Tasker.Api\\Program.cs",
+              "RelativeDocumentMoniker": "src\\Tasker.Api\\Program.cs",
+              "ToolTip": "D:\\_programowanie\\projects\\Tasker\\src\\Tasker.Api\\Program.cs",
+              "RelativeToolTip": "src\\Tasker.Api\\Program.cs",
+              "ViewState": "AgIAAA8AAAAAAAAAAAAQwCEAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-02-20T20:03:18.689Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "CommentController.cs",
+              "DocumentMoniker": "D:\\_programowanie\\projects\\Tasker\\src\\Tasker.Api\\Controllers\\CommentController.cs",
+              "RelativeDocumentMoniker": "src\\Tasker.Api\\Controllers\\CommentController.cs",
+              "ToolTip": "D:\\_programowanie\\projects\\Tasker\\src\\Tasker.Api\\Controllers\\CommentController.cs",
+              "RelativeToolTip": "src\\Tasker.Api\\Controllers\\CommentController.cs",
+              "ViewState": "AgIAAAwAAAAAAAAAAAAiwDsAAAA0AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-02-22T17:46:09.854Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "TaskCommentRepository.cs",
+              "DocumentMoniker": "D:\\_programowanie\\projects\\Tasker\\src\\Tasker.Infrastructure\\Repositories\\TaskCommentRepository.cs",
+              "RelativeDocumentMoniker": "src\\Tasker.Infrastructure\\Repositories\\TaskCommentRepository.cs",
+              "ToolTip": "D:\\_programowanie\\projects\\Tasker\\src\\Tasker.Infrastructure\\Repositories\\TaskCommentRepository.cs",
+              "RelativeToolTip": "src\\Tasker.Infrastructure\\Repositories\\TaskCommentRepository.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAB0AAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-02-22T18:11:35.208Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "TaskComment.cs",
+              "DocumentMoniker": "D:\\_programowanie\\projects\\Tasker\\src\\Tasker.Domain\\Entities\\TaskComment.cs",
+              "RelativeDocumentMoniker": "src\\Tasker.Domain\\Entities\\TaskComment.cs",
+              "ToolTip": "D:\\_programowanie\\projects\\Tasker\\src\\Tasker.Domain\\Entities\\TaskComment.cs",
+              "RelativeToolTip": "src\\Tasker.Domain\\Entities\\TaskComment.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABcAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-02-20T12:46:32.115Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "TaskItem.cs",
+              "DocumentMoniker": "D:\\_programowanie\\projects\\Tasker\\src\\Tasker.Domain\\Entities\\TaskItem.cs",
+              "RelativeDocumentMoniker": "src\\Tasker.Domain\\Entities\\TaskItem.cs",
+              "ToolTip": "D:\\_programowanie\\projects\\Tasker\\src\\Tasker.Domain\\Entities\\TaskItem.cs",
+              "RelativeToolTip": "src\\Tasker.Domain\\Entities\\TaskItem.cs",
+              "ViewState": "AgIAAAwAAAAAAAAAAAA8wDYAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-02-20T12:31:59.525Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "ITaskRepository.cs",
+              "DocumentMoniker": "D:\\_programowanie\\projects\\Tasker\\src\\Tasker.Domain\\Interfaces\\ITaskRepository.cs",
+              "RelativeDocumentMoniker": "src\\Tasker.Domain\\Interfaces\\ITaskRepository.cs",
+              "ToolTip": "D:\\_programowanie\\projects\\Tasker\\src\\Tasker.Domain\\Interfaces\\ITaskRepository.cs",
+              "RelativeToolTip": "src\\Tasker.Domain\\Interfaces\\ITaskRepository.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-02-22T18:25:07.919Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "ProjectRepositories.cs",
+              "DocumentMoniker": "D:\\_programowanie\\projects\\Tasker\\src\\Tasker.Infrastructure\\Repositories\\ProjectRepositories.cs",
+              "RelativeDocumentMoniker": "src\\Tasker.Infrastructure\\Repositories\\ProjectRepositories.cs",
+              "ToolTip": "D:\\_programowanie\\projects\\Tasker\\src\\Tasker.Infrastructure\\Repositories\\ProjectRepositories.cs",
+              "RelativeToolTip": "src\\Tasker.Infrastructure\\Repositories\\ProjectRepositories.cs",
+              "ViewState": "AgIAAAIAAAAAAAAAAADwvycAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-02-20T20:02:47.782Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "ITaskCommentRepostory.cs",
+              "DocumentMoniker": "D:\\_programowanie\\projects\\Tasker\\src\\Tasker.Domain\\Interfaces\\ITaskCommentRepostory.cs",
+              "RelativeDocumentMoniker": "src\\Tasker.Domain\\Interfaces\\ITaskCommentRepostory.cs",
+              "ToolTip": "D:\\_programowanie\\projects\\Tasker\\src\\Tasker.Domain\\Interfaces\\ITaskCommentRepostory.cs",
+              "RelativeToolTip": "src\\Tasker.Domain\\Interfaces\\ITaskCommentRepostory.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-02-22T17:35:49.186Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "IUserRepository.cs",
+              "DocumentMoniker": "D:\\_programowanie\\projects\\Tasker\\src\\Tasker.Domain\\Interfaces\\IUserRepository.cs",
+              "RelativeDocumentMoniker": "src\\Tasker.Domain\\Interfaces\\IUserRepository.cs",
+              "ToolTip": "D:\\_programowanie\\projects\\Tasker\\src\\Tasker.Domain\\Interfaces\\IUserRepository.cs",
+              "RelativeToolTip": "src\\Tasker.Domain\\Interfaces\\IUserRepository.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-02-22T18:27:28.77Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "TaskController.cs",
+              "DocumentMoniker": "D:\\_programowanie\\projects\\Tasker\\src\\Tasker.Api\\Controllers\\TaskController.cs",
+              "RelativeDocumentMoniker": "src\\Tasker.Api\\Controllers\\TaskController.cs",
+              "ToolTip": "D:\\_programowanie\\projects\\Tasker\\src\\Tasker.Api\\Controllers\\TaskController.cs",
+              "RelativeToolTip": "src\\Tasker.Api\\Controllers\\TaskController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAqwCQAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-02-20T12:20:42.838Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
               "Title": "UserController.cs",
               "DocumentMoniker": "D:\\_programowanie\\projects\\Tasker\\src\\Tasker.Api\\Controllers\\UserController.cs",
               "RelativeDocumentMoniker": "src\\Tasker.Api\\Controllers\\UserController.cs",
               "ToolTip": "D:\\_programowanie\\projects\\Tasker\\src\\Tasker.Api\\Controllers\\UserController.cs",
               "RelativeToolTip": "src\\Tasker.Api\\Controllers\\UserController.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABIAAAAuAAAAAAAAAA==",
+              "ViewState": "AgIAAAsAAAAAAAAAAAAqwDMAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2026-02-19T19:22:37.396Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "LoginHandler.cs",
-              "DocumentMoniker": "D:\\_programowanie\\projects\\Tasker\\src\\Tasker.Application\\Features\\Users\\LoginHandler.cs",
-              "RelativeDocumentMoniker": "src\\Tasker.Application\\Features\\Users\\LoginHandler.cs",
-              "ToolTip": "D:\\_programowanie\\projects\\Tasker\\src\\Tasker.Application\\Features\\Users\\LoginHandler.cs",
-              "RelativeToolTip": "src\\Tasker.Application\\Features\\Users\\LoginHandler.cs",
-              "ViewState": "AgIAAAMAAAAAAAAAAAAAACQAAAAfAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-02-19T19:22:24.524Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 12,
               "Title": "PasswordHasher.cs",
               "DocumentMoniker": "D:\\_programowanie\\projects\\Tasker\\src\\Tasker.Infrastructure\\Security\\PasswordHasher.cs",
               "RelativeDocumentMoniker": "src\\Tasker.Infrastructure\\Security\\PasswordHasher.cs",
@@ -62,6 +334,212 @@
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2026-02-19T18:34:54.256Z",
               "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 16,
+              "Title": "CreateTaskHandler.cs",
+              "DocumentMoniker": "D:\\_programowanie\\projects\\Tasker\\src\\Tasker.Application\\Features\\Tasks\\CreateTask\\CreateTaskHandler.cs",
+              "RelativeDocumentMoniker": "src\\Tasker.Application\\Features\\Tasks\\CreateTask\\CreateTaskHandler.cs",
+              "ToolTip": "D:\\_programowanie\\projects\\Tasker\\src\\Tasker.Application\\Features\\Tasks\\CreateTask\\CreateTaskHandler.cs",
+              "RelativeToolTip": "src\\Tasker.Application\\Features\\Tasks\\CreateTask\\CreateTaskHandler.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABwAAAAgAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-02-20T12:20:30.919Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "ProjectController.cs",
+              "DocumentMoniker": "D:\\_programowanie\\projects\\Tasker\\src\\Tasker.Api\\Controllers\\ProjectController.cs",
+              "RelativeDocumentMoniker": "src\\Tasker.Api\\Controllers\\ProjectController.cs",
+              "ToolTip": "D:\\_programowanie\\projects\\Tasker\\src\\Tasker.Api\\Controllers\\ProjectController.cs",
+              "RelativeToolTip": "src\\Tasker.Api\\Controllers\\ProjectController.cs",
+              "ViewState": "AgIAAAoAAAAAAAAAAAAcwB4AAAAkAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-02-20T19:55:57.855Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 20,
+              "Title": "CreateTaskCommand.cs",
+              "DocumentMoniker": "D:\\_programowanie\\projects\\Tasker\\src\\Tasker.Application\\Features\\Tasks\\CreateTask\\CreateTaskCommand.cs",
+              "RelativeDocumentMoniker": "src\\Tasker.Application\\Features\\Tasks\\CreateTask\\CreateTaskCommand.cs",
+              "ToolTip": "D:\\_programowanie\\projects\\Tasker\\src\\Tasker.Application\\Features\\Tasks\\CreateTask\\CreateTaskCommand.cs",
+              "RelativeToolTip": "src\\Tasker.Application\\Features\\Tasks\\CreateTask\\CreateTaskCommand.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAEAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-02-20T12:20:29.919Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 18,
+              "Title": "CreateProjectCommand.cs",
+              "DocumentMoniker": "D:\\_programowanie\\projects\\Tasker\\src\\Tasker.Application\\Features\\Tasks\\CreateProject\\CreateProjectCommand.cs",
+              "RelativeDocumentMoniker": "src\\Tasker.Application\\Features\\Tasks\\CreateProject\\CreateProjectCommand.cs",
+              "ToolTip": "D:\\_programowanie\\projects\\Tasker\\src\\Tasker.Application\\Features\\Tasks\\CreateProject\\CreateProjectCommand.cs",
+              "RelativeToolTip": "src\\Tasker.Application\\Features\\Tasks\\CreateProject\\CreateProjectCommand.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAQAAAAbAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-02-20T19:56:32.991Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 19,
+              "Title": "Project.cs",
+              "DocumentMoniker": "D:\\_programowanie\\projects\\Tasker\\src\\Tasker.Domain\\Entities\\Project.cs",
+              "RelativeDocumentMoniker": "src\\Tasker.Domain\\Entities\\Project.cs",
+              "ToolTip": "D:\\_programowanie\\projects\\Tasker\\src\\Tasker.Domain\\Entities\\Project.cs",
+              "RelativeToolTip": "src\\Tasker.Domain\\Entities\\Project.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAA+AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-02-20T12:36:32.417Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 17,
+              "Title": "CreateProjectHandler.cs",
+              "DocumentMoniker": "D:\\_programowanie\\projects\\Tasker\\src\\Tasker.Application\\Features\\Tasks\\CreateProject\\CreateProjectHandler.cs",
+              "RelativeDocumentMoniker": "src\\Tasker.Application\\Features\\Tasks\\CreateProject\\CreateProjectHandler.cs",
+              "ToolTip": "D:\\_programowanie\\projects\\Tasker\\src\\Tasker.Application\\Features\\Tasks\\CreateProject\\CreateProjectHandler.cs",
+              "RelativeToolTip": "src\\Tasker.Application\\Features\\Tasks\\CreateProject\\CreateProjectHandler.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAqwBcAAAApAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-02-20T19:55:23.528Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 21,
+              "Title": "IProjectRepository.cs",
+              "DocumentMoniker": "D:\\_programowanie\\projects\\Tasker\\src\\Tasker.Domain\\Interfaces\\IProjectRepository.cs",
+              "RelativeDocumentMoniker": "src\\Tasker.Domain\\Interfaces\\IProjectRepository.cs",
+              "ToolTip": "D:\\_programowanie\\projects\\Tasker\\src\\Tasker.Domain\\Interfaces\\IProjectRepository.cs",
+              "RelativeToolTip": "src\\Tasker.Domain\\Interfaces\\IProjectRepository.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-02-20T20:01:06.104Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 22,
+              "Title": "RegisterUserCommand.cs",
+              "DocumentMoniker": "D:\\_programowanie\\projects\\Tasker\\src\\Tasker.Application\\Features\\Users\\RegisterUserCommand.cs",
+              "RelativeDocumentMoniker": "src\\Tasker.Application\\Features\\Users\\RegisterUserCommand.cs",
+              "ToolTip": "D:\\_programowanie\\projects\\Tasker\\src\\Tasker.Application\\Features\\Users\\RegisterUserCommand.cs",
+              "RelativeToolTip": "src\\Tasker.Application\\Features\\Users\\RegisterUserCommand.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-02-20T19:58:44.493Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 23,
+              "Title": "LoginRequest.cs",
+              "DocumentMoniker": "D:\\_programowanie\\projects\\Tasker\\src\\Tasker.Application\\Features\\Users\\LoginRequest.cs",
+              "RelativeDocumentMoniker": "src\\Tasker.Application\\Features\\Users\\LoginRequest.cs",
+              "ToolTip": "D:\\_programowanie\\projects\\Tasker\\src\\Tasker.Application\\Features\\Users\\LoginRequest.cs",
+              "RelativeToolTip": "src\\Tasker.Application\\Features\\Users\\LoginRequest.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-02-20T19:58:43.843Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 24,
+              "Title": "LognUserCommand.cs",
+              "DocumentMoniker": "D:\\_programowanie\\projects\\Tasker\\src\\Tasker.Application\\Features\\Users\\LognUserCommand.cs",
+              "RelativeDocumentMoniker": "src\\Tasker.Application\\Features\\Users\\LognUserCommand.cs",
+              "ToolTip": "D:\\_programowanie\\projects\\Tasker\\src\\Tasker.Application\\Features\\Users\\LognUserCommand.cs",
+              "RelativeToolTip": "src\\Tasker.Application\\Features\\Users\\LognUserCommand.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-02-20T19:58:43.18Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 26,
+              "Title": "TaskAttachment.cs",
+              "DocumentMoniker": "D:\\_programowanie\\projects\\Tasker\\src\\Tasker.Domain\\Entities\\TaskAttachment.cs",
+              "RelativeDocumentMoniker": "src\\Tasker.Domain\\Entities\\TaskAttachment.cs",
+              "ToolTip": "D:\\_programowanie\\projects\\Tasker\\src\\Tasker.Domain\\Entities\\TaskAttachment.cs",
+              "RelativeToolTip": "src\\Tasker.Domain\\Entities\\TaskAttachment.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABsAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-02-20T12:47:04.5Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 25,
+              "Title": "ProjectMember.cs",
+              "DocumentMoniker": "D:\\_programowanie\\projects\\Tasker\\src\\Tasker.Domain\\Entities\\ProjectMember.cs",
+              "RelativeDocumentMoniker": "src\\Tasker.Domain\\Entities\\ProjectMember.cs",
+              "ToolTip": "D:\\_programowanie\\projects\\Tasker\\src\\Tasker.Domain\\Entities\\ProjectMember.cs",
+              "RelativeToolTip": "src\\Tasker.Domain\\Entities\\ProjectMember.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABoAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-02-20T12:39:04.856Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 27,
+              "Title": "ProjectInvitation.cs",
+              "DocumentMoniker": "D:\\_programowanie\\projects\\Tasker\\src\\Tasker.Domain\\Entities\\ProjectInvitation.cs",
+              "RelativeDocumentMoniker": "src\\Tasker.Domain\\Entities\\ProjectInvitation.cs",
+              "ToolTip": "D:\\_programowanie\\projects\\Tasker\\src\\Tasker.Domain\\Entities\\ProjectInvitation.cs",
+              "RelativeToolTip": "src\\Tasker.Domain\\Entities\\ProjectInvitation.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-02-20T12:47:52.027Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 28,
+              "Title": "TaskMention.cs",
+              "DocumentMoniker": "D:\\_programowanie\\projects\\Tasker\\src\\Tasker.Domain\\Entities\\TaskMention.cs",
+              "RelativeDocumentMoniker": "src\\Tasker.Domain\\Entities\\TaskMention.cs",
+              "ToolTip": "D:\\_programowanie\\projects\\Tasker\\src\\Tasker.Domain\\Entities\\TaskMention.cs",
+              "RelativeToolTip": "src\\Tasker.Domain\\Entities\\TaskMention.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-02-20T12:47:29.351Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 29,
+              "Title": "User.cs",
+              "DocumentMoniker": "D:\\_programowanie\\projects\\Tasker\\src\\Tasker.Domain\\Entities\\User.cs",
+              "RelativeDocumentMoniker": "src\\Tasker.Domain\\Entities\\User.cs",
+              "ToolTip": "D:\\_programowanie\\projects\\Tasker\\src\\Tasker.Domain\\Entities\\User.cs",
+              "RelativeToolTip": "src\\Tasker.Domain\\Entities\\User.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABkAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-02-20T19:25:44.02Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 30,
+              "Title": "ProjectRole.cs",
+              "DocumentMoniker": "D:\\_programowanie\\projects\\Tasker\\src\\Tasker.Domain\\Enums\\ProjectRole.cs",
+              "RelativeDocumentMoniker": "src\\Tasker.Domain\\Enums\\ProjectRole.cs",
+              "ToolTip": "D:\\_programowanie\\projects\\Tasker\\src\\Tasker.Domain\\Enums\\ProjectRole.cs",
+              "RelativeToolTip": "src\\Tasker.Domain\\Enums\\ProjectRole.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAAOAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-02-20T12:38:32.347Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 31,
+              "Title": "LoginHandler.cs",
+              "DocumentMoniker": "D:\\_programowanie\\projects\\Tasker\\src\\Tasker.Application\\Features\\Users\\LoginHandler.cs",
+              "RelativeDocumentMoniker": "src\\Tasker.Application\\Features\\Users\\LoginHandler.cs",
+              "ToolTip": "D:\\_programowanie\\projects\\Tasker\\src\\Tasker.Application\\Features\\Users\\LoginHandler.cs",
+              "RelativeToolTip": "src\\Tasker.Application\\Features\\Users\\LoginHandler.cs",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAAACQAAAAfAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-02-19T19:22:24.524Z"
             }
           ]
         }

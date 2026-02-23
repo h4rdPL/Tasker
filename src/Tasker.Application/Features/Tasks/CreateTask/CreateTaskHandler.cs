@@ -1,21 +1,20 @@
-using System;
-using System.Threading;
-using System.Threading.Tasks;
-using Tasker.Domain.Interfaces;
 using Tasker.Domain.Entities;
+using Tasker.Domain.Interfaces;
 namespace Tasker.Application.Features.Tasks.CreateTask;
 public class CreateTaskHandler
 {
     private readonly ITaskRepository _taskRepository;
     private readonly IUserRepository _userRepository;
+    private readonly IProjectRepository _projectRepository;
 
-    public CreateTaskHandler(ITaskRepository taskRepository, IUserRepository userRepository)
+    public CreateTaskHandler(ITaskRepository taskRepository, IUserRepository userRepository, IProjectRepository projectRepository)
     {
         _taskRepository = taskRepository;
         _userRepository = userRepository;
+        _projectRepository = projectRepository;
     }
 
-    public async Task<Guid> Handle(CreateTaskCommand command, CancellationToken ct)
+    public async Task<Guid> Handle(CreateTaskCommand command, Guid userId, CancellationToken ct)
     {
         var task = new TaskItem(
             command.Title,
@@ -23,6 +22,15 @@ public class CreateTaskHandler
             command.Deadline,
             command.Priority
         );
+
+        if (command.ProjectId.HasValue)
+        {
+            var project = await _projectRepository.GetByIdAsync(command.ProjectId.Value, ct);
+            if (project == null)
+                throw new Exception("Project not found");
+
+            task.ProjectId = project.Id;
+        }
 
         if (command.Tags != null)
         {
@@ -33,18 +41,16 @@ public class CreateTaskHandler
             }
         }
 
-        if (command.UserId.HasValue)
-        {
-            var user = await _userRepository.GetByIdAsync(command.UserId.Value, ct);
-            if (user == null)
-                throw new Exception("User not found");
+        var user = await _userRepository.GetByIdAsync(userId, ct);
+        if (user == null)
+            throw new Exception("User not found");
 
-            task.UserId = user.Id;      
-            user.Tasks.Add(task);     
-        }
+        task.UserId = user.Id;
+        user.Tasks.Add(task);
 
         await _taskRepository.AddAsync(task, ct);
 
         return task.Id;
     }
 }
+

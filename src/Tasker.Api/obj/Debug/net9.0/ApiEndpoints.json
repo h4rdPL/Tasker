@@ -1,5 +1,21 @@
 [
   {
+    "ContainingType": "Tasker.Api.Controllers.ProjectController",
+    "Method": "Create",
+    "RelativePath": "api/projects",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "command",
+        "Type": "Tasker.Application.Features.Tasks.CreateProject.CreateProjectCommand",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
     "ContainingType": "Tasker.Api.Controllers.TasksController",
     "Method": "Create",
     "RelativePath": "api/tasks",
@@ -10,6 +26,43 @@
       {
         "Name": "command",
         "Type": "Tasker.Application.Features.Tasks.CreateTask.CreateTaskCommand",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Tasker.Api.Controllers.TaskCommentsController",
+    "Method": "Add",
+    "RelativePath": "api/tasks/{taskId}/comments",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "taskId",
+        "Type": "System.Guid",
+        "IsRequired": true
+      },
+      {
+        "Name": "request",
+        "Type": "Tasker.Api.Controllers.AddTaskCommentRequest",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Tasker.Api.Controllers.TaskCommentsController",
+    "Method": "Get",
+    "RelativePath": "api/tasks/{taskId}/comments",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "taskId",
+        "Type": "System.Guid",
         "IsRequired": true
       }
     ],
