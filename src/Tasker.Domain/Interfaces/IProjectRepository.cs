@@ -6,5 +6,6 @@ namespace Tasker.Domain.Interfaces
     {
         Task AddAsync(Project project, CancellationToken ct);
         Task<Project?> GetByIdAsync(Guid projectId, CancellationToken ct);
+        Task SaveChangesAsync(CancellationToken ct);
     }
 }

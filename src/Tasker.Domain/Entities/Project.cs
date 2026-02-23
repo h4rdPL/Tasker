@@ -18,13 +18,13 @@ public class Project
         Description = description;
         OwnerId = ownerId;
 
-        Members.Add(new ProjectMember(ownerId, ProjectRole.Owner));
+        Members.Add(new ProjectMember(ownerId, Guid.NewGuid(), Role.Owner));
     }
 
     public bool CanEdit(Guid userId)
     {
         return Members.Any(m =>
             m.UserId == userId &&
-            (m.Role == ProjectRole.Owner || m.Role == ProjectRole.Admin));
+            (m.Role == Role.Owner || m.Role == Role.Admin));
     }
 }

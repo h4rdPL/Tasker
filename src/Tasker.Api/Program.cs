@@ -2,8 +2,8 @@ using Microsoft.IdentityModel.Tokens;
 using Scalar.AspNetCore;
 using System.Text;
 using Tasker.Application;
-using Tasker.Application.Features.Projects.CreateProject;
 using Tasker.Application.Features.TaskComments;
+using Tasker.Application.Features.Tasks.CreateProject;
 using Tasker.Application.Features.Users;
 using Tasker.Application.Interfaces;
 using Tasker.Domain.Interfaces;
@@ -25,7 +25,7 @@ builder.Services.AddScoped<LoginHandler>();
 builder.Services.AddScoped<IJwtTokenGenerator, JwtTokenGenerator>();
 builder.Services.AddScoped<IProjectRepository, ProjectRepository>();
 builder.Services.AddScoped<CreateProjectHandler>();
-
+builder.Services.AddScoped<ChangeProjectMemberRoleHandler>();
 builder.Services.AddScoped<TaskCommentHandler>();
 
 builder.Services.AddScoped<ITaskRepository, TaskRepository>();

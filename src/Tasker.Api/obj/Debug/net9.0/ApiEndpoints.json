@@ -16,6 +16,48 @@
     "ReturnTypes": []
   },
   {
+    "ContainingType": "Tasker.Api.Controllers.ProjectController",
+    "Method": "GetById",
+    "RelativePath": "api/projects/{id}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Guid",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Tasker.Api.Controllers.ProjectController",
+    "Method": "ChangeRole",
+    "RelativePath": "api/projects/{projectId}/members/{memberId}/role",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "projectId",
+        "Type": "System.Guid",
+        "IsRequired": true
+      },
+      {
+        "Name": "memberId",
+        "Type": "System.Guid",
+        "IsRequired": true
+      },
+      {
+        "Name": "request",
+        "Type": "Tasker.Api.Controllers.ChangeRoleRequest",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
     "ContainingType": "Tasker.Api.Controllers.TasksController",
     "Method": "Create",
     "RelativePath": "api/tasks",

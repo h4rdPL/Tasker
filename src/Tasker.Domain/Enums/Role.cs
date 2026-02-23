@@ -1,6 +1,6 @@
 ﻿namespace Tasker.Domain.Enums
 {
-    public enum ProjectRole
+    public enum Role
     {
         Owner,
         Admin,
