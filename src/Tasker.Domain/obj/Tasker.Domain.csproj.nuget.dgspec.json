@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "D:\\_programowanie\\projects\\tasker\\src\\Tasker.Domain\\Tasker.Domain.csproj": {}
+    "D:\\_programowanie\\projects\\Tasker\\src\\Tasker.Domain\\Tasker.Domain.csproj": {}
   },
   "projects": {
-    "D:\\_programowanie\\projects\\tasker\\src\\Tasker.Domain\\Tasker.Domain.csproj": {
+    "D:\\_programowanie\\projects\\Tasker\\src\\Tasker.Domain\\Tasker.Domain.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\_programowanie\\projects\\tasker\\src\\Tasker.Domain\\Tasker.Domain.csproj",
+        "projectUniqueName": "D:\\_programowanie\\projects\\Tasker\\src\\Tasker.Domain\\Tasker.Domain.csproj",
         "projectName": "Tasker.Domain",
-        "projectPath": "D:\\_programowanie\\projects\\tasker\\src\\Tasker.Domain\\Tasker.Domain.csproj",
+        "projectPath": "D:\\_programowanie\\projects\\Tasker\\src\\Tasker.Domain\\Tasker.Domain.csproj",
         "packagesPath": "C:\\Users\\mateu\\.nuget\\packages\\",
-        "outputPath": "D:\\_programowanie\\projects\\tasker\\src\\Tasker.Domain\\obj\\",
+        "outputPath": "D:\\_programowanie\\projects\\Tasker\\src\\Tasker.Domain\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"

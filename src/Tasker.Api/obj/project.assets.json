@@ -4605,11 +4605,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "D:\\_programowanie\\projects\\tasker\\src\\Tasker.Api\\Tasker.Api.csproj",
+      "projectUniqueName": "D:\\_programowanie\\projects\\Tasker\\src\\Tasker.Api\\Tasker.Api.csproj",
       "projectName": "Tasker.Api",
-      "projectPath": "D:\\_programowanie\\projects\\tasker\\src\\Tasker.Api\\Tasker.Api.csproj",
+      "projectPath": "D:\\_programowanie\\projects\\Tasker\\src\\Tasker.Api\\Tasker.Api.csproj",
       "packagesPath": "C:\\Users\\mateu\\.nuget\\packages\\",
-      "outputPath": "D:\\_programowanie\\projects\\tasker\\src\\Tasker.Api\\obj\\",
+      "outputPath": "D:\\_programowanie\\projects\\Tasker\\src\\Tasker.Api\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
@@ -4631,11 +4631,11 @@
         "net9.0": {
           "targetAlias": "net9.0",
           "projectReferences": {
-            "D:\\_programowanie\\projects\\tasker\\src\\Tasker.Application\\Tasker.Application.csproj": {
-              "projectPath": "D:\\_programowanie\\projects\\tasker\\src\\Tasker.Application\\Tasker.Application.csproj"
+            "D:\\_programowanie\\projects\\Tasker\\src\\Tasker.Application\\Tasker.Application.csproj": {
+              "projectPath": "D:\\_programowanie\\projects\\Tasker\\src\\Tasker.Application\\Tasker.Application.csproj"
             },
-            "D:\\_programowanie\\projects\\tasker\\src\\Tasker.Infrastructure\\Tasker.Infrastructure.csproj": {
-              "projectPath": "D:\\_programowanie\\projects\\tasker\\src\\Tasker.Infrastructure\\Tasker.Infrastructure.csproj"
+            "D:\\_programowanie\\projects\\Tasker\\src\\Tasker.Infrastructure\\Tasker.Infrastructure.csproj": {
+              "projectPath": "D:\\_programowanie\\projects\\Tasker\\src\\Tasker.Infrastructure\\Tasker.Infrastructure.csproj"
             }
           }
         }
