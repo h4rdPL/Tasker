@@ -4,6 +4,9 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 VisualStudioVersion = 17.0.31903.59
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{827E0CD3-B72D-47B6-A68D-7590B98EB39B}"
+	ProjectSection(SolutionItems) = preProject
+		.gitignore = .gitignore
+	EndProjectSection
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Tasker.Domain", "src\Tasker.Domain\Tasker.Domain.csproj", "{9C4A983E-79B7-459D-9292-867182E8F3DA}"
 EndProject
@@ -80,5 +83,8 @@ Global
 		{47A4BE28-1919-40F5-8E72-C58F401696E2} = {827E0CD3-B72D-47B6-A68D-7590B98EB39B}
 		{2304375D-0870-4D6E-AD91-EB84C53396E4} = {827E0CD3-B72D-47B6-A68D-7590B98EB39B}
 		{38F50905-25D7-47F4-A507-F01E9C88D541} = {827E0CD3-B72D-47B6-A68D-7590B98EB39B}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {2030FBD6-49F6-4200-AA75-D33D94CA09A7}
 	EndGlobalSection
 EndGlobal
