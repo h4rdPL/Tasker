@@ -59,3 +59,14 @@ To run the application locally:
 1. Clone the repository:  
    ```bash
    git clone https://github.com/h4rdPL/tasker-api.git
+   ```
+2. Run project in cmd:
+   ```bash
+   cd src/Tasker.API
+   dotnet run
+   ```
+3. Open Scalar docs and test the API endpoints:
+   ```bash
+    http://localhost:5266/scalar
+   ```
+   
